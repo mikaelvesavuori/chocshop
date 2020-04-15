@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "ESNEXT",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "removeComments": true,
-    "target": "ESNext",
     "baseUrl": "./"
   },
   "include": ["src/**/*"]

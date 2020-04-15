@@ -1,18 +1,18 @@
-<script lang="ts">
+<script>
   import { onMount } from 'svelte';
 
-  import { products } from '../data/products.js';
+  import { products } from '../data/products';
   import ProductCard from '../components/ProductCard/ProductCard.svelte';
 
   // Setup structured data in JSON-LD format
   import { list } from '../data/structured-data/list.js';
-  let jsonld: Object = list;
+  let jsonld = list;
   jsonld = JSON.stringify(jsonld);
   let jsonldScript = `<script type="application/ld+json">${jsonld + '<'}/script>`;
 
   // Get stock status
-  let stockStatus: Object = {};
-  let stockUpdated: boolean = false;
+  let stockStatus = {};
+  let stockUpdated = false;
 
   onMount(async () => {
     const BASE_URL = 'https://chocshop.mikaelvesavuori.workers.dev';
@@ -30,10 +30,10 @@
 </style>
 
 <svelte:head>
-  <meta name="description" content="ChocShop - A demo chocolate shop for modern ecommerce" />
+  <meta name="description" content="ChocShop - Structured data demo" />
   <meta property="og:url" content="https://chocshop.netlify.app/" />
   <meta property="og:title" content="ChocShop" />
-  <meta property="og:description" content="ChocShop - A demo chocolate shop for modern ecommerce" />
+  <meta property="og:description" content="ChocShop - Structured data demo" />
   <meta property="og:image" content="https://chocshop.netlify.app/img/chocshop-banner.png" />
 
   {@html jsonldScript}

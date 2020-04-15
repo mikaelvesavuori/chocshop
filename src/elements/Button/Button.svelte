@@ -1,5 +1,5 @@
-<script lang="ts">
-  export let className: string = '';
+<script>
+  export let className = '';
   export let onClick = null;
 </script>
 

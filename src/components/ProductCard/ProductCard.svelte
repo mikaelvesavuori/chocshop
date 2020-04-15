@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { Link } from 'svelte-routing';
   import Image from '../../elements/Image/Image.svelte';
   import ProductName from '../../elements/ProductName/ProductName.svelte';
@@ -6,12 +6,12 @@
   import ReadMore from '../../elements/ReadMore/ReadMore.svelte';
   import Button from '../../elements/Button/Button.svelte';
 
-  export let id: string = '';
-  export let name: string = '';
-  export let description: string = '';
-  export let image: string = '';
-  export let inStock: boolean = true;
-  export let price: number = 0.0;
+  export let id = '';
+  export let name = '';
+  export let description = '';
+  export let image = '';
+  export let inStock = true;
+  export let price = 0.0;
 
   function handleClick() {
     alert("Added item to cart!\n\nThis is just fake, so don't worry about it :)");

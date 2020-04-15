@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { onMount } from 'svelte';
   import { Link } from 'svelte-routing';
 
@@ -17,18 +17,18 @@
   const PRODUCT_STRUCTURED_DATA = productData[CURRENT_PRODUCT];
   if (!PRODUCT_STRUCTURED_DATA) throw new Error('Could not match product with data!');
 
-  let jsonld: Object = PRODUCT_STRUCTURED_DATA;
+  let jsonld = PRODUCT_STRUCTURED_DATA;
   jsonld = JSON.stringify(jsonld);
-  let jsonldScript: String = `<script type="application/ld+json">${jsonld + '<'}/script>`;
+  let jsonldScript = `<script type="application/ld+json">${jsonld + '<'}/script>`;
 
   // Setup product data
-  const PRODUCT: Object = products.filter(product => product.id === CURRENT_PRODUCT)[0];
+  const PRODUCT = products.filter(product => product.id === CURRENT_PRODUCT)[0];
   if (!PRODUCT) throw new Error('Could not find product!');
 
   // Get stock status
-  let inStock: boolean = false;
-  let stockUpdated: boolean = false;
-  let price: number = 0.0;
+  let inStock = false;
+  let stockUpdated = false;
+  let price = 0.0;
 
   onMount(async () => {
     const BASE_URL = 'https://chocshop.mikaelvesavuori.workers.dev';

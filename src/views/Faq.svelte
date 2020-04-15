@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import H1 from '../elements/H1/H1.svelte';
   import Paragraph from '../elements/Paragraph/Paragraph.svelte';
 
@@ -18,10 +18,10 @@
 <svelte:head>
   <title>ChocShop — FAQ</title>
 
-  <meta name="description" content="ChocShop - A demo chocolate shop for modern ecommerce" />
+  <meta name="description" content="ChocShop - Structured data demo" />
   <meta property="og:url" content="https://chocshop.netlify.app/" />
   <meta property="og:title" content="ChocShop" />
-  <meta property="og:description" content="ChocShop - A demo chocolate shop for modern ecommerce" />
+  <meta property="og:description" content="ChocShop - Structured data demo" />
   <meta property="og:image" content="https://chocshop.netlify.app/img/chocshop-banner.png" />
   {@html jsonldScript}
 </svelte:head>
