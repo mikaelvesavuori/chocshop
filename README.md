@@ -1,8 +1,8 @@
 # ChocShop: Structured data demo using Svelte and Figmagic
 
-A demo to show:
+A demo for structured data which is Google Search and Google Assistant-friendly. Uses [Svelte](https://svelte.dev) as the framework, and most of the design, tokens, and boilerplate UI code is generated through [Figmagic](https://github.com/mikaelvesavuori/figmagic).
 
-- Google and Assistant-friendly through structured data
+Inspired by [https://www.youtube.com/watch?v=GR1j2ADyGvA](https://www.youtube.com/watch?v=GR1j2ADyGvA).
 
 Tech used:
 
@@ -12,7 +12,19 @@ Tech used:
 - [`TypeScript`](https://www.typescriptlang.org)
 - [`Jest`](https://jestjs.io)
 
-I've also experimentally used [Figmagic](https://github.com/mikaelvesavuori/figmagic) to export the bulk of the elements, and then wrangled them into Svelte format. This has given me a pretty good idea of changes that would need to be made to Figmagic in order to more fully support the Svelte way of working.
+I've experimentally used [Figmagic](https://github.com/mikaelvesavuori/figmagic) to export the bulk of the elements, and then wrangled them into Svelte format. This has given me a pretty good idea of changes that would need to be made to Figmagic in order to more fully support the Svelte way of working.
+
+## Connected repositories
+
+There's a range of repos that are connected to the overall ChocShop demo.
+
+For the frontend, you would also need the backend repo to be deployed, or at the very least point to local data unless you want the app to crash.
+
+The VUI apps are entirely elective.
+
+- [ChocShop: Backend](https://github.com/mikaelvesavuori/chocshop-backend): The basic API backend to send back stock status and price
+- [ChocShop: Alexa Skill](https://github.com/mikaelvesavuori/chocshop-alexa): VUI assistent which gives you a basic product overview, stock status and price information
+- [ChocShop: Google Assistent](https://github.com/mikaelvesavuori/chocshop-assistent): VUI assistent which gives you a basic product overview, stock status and price information
 
 ## Installation
 

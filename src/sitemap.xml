@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://chocshop.netlify.com/index.html</loc>
+    <loc>https://chocshop.netlify.app/index.html</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/faq</loc>
+    <loc>https://chocshop.netlify.app/faq</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/products</loc>
+    <loc>https://chocshop.netlify.app/products</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/product-bar</loc>
+    <loc>https://chocshop.netlify.app/product-bar</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/product-cake</loc>
+    <loc>https://chocshop.netlify.app/product-cake</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/product-brownie</loc>
+    <loc>https://chocshop.netlify.app/product-brownie</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/product-box</loc>
+    <loc>https://chocshop.netlify.app/product-box</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/product-icecream</loc>
+    <loc>https://chocshop.netlify.app/product-icecream</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
   <url>
-    <loc>https://chocshop.netlify.com/product-pralines</loc>
+    <loc>https://chocshop.netlify.app/product-pralines</loc>
     <lastmod>2020-04-11</lastmod>
   </url>
 </urlset>

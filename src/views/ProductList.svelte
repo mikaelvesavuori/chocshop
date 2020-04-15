@@ -31,10 +31,10 @@
 
 <svelte:head>
   <meta name="description" content="ChocShop - A demo chocolate shop for modern ecommerce" />
-  <meta property="og:url" content="https://chocshop.netlify.com/" />
+  <meta property="og:url" content="https://chocshop.netlify.app/" />
   <meta property="og:title" content="ChocShop" />
   <meta property="og:description" content="ChocShop - A demo chocolate shop for modern ecommerce" />
-  <meta property="og:image" content="https://chocshop.netlify.com/img/chocshop-banner.png" />
+  <meta property="og:image" content="https://chocshop.netlify.app/img/chocshop-banner.png" />
 
   {@html jsonldScript}
 </svelte:head>

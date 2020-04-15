@@ -55,10 +55,10 @@
   <title>ChocShop — {PRODUCT.name}</title>
 
   <meta name="description" content="ChocShop - {PRODUCT.name}" />
-  <meta property="og:url" content="https://chocshop.netlify.com/product-{CURRENT_PRODUCT}" />
+  <meta property="og:url" content="https://chocshop.netlify.app/product-{CURRENT_PRODUCT}" />
   <meta property="og:title" content="ChocShop" />
   <meta property="og:description" content="ChocShop - {PRODUCT.name}" />
-  <meta property="og:image" content="https://chocshop.netlify.com/img/1000px/{PRODUCT.image}" />
+  <meta property="og:image" content="https://chocshop.netlify.app/img/1000px/{PRODUCT.image}" />
 
   {@html jsonldScript}
 </svelte:head>

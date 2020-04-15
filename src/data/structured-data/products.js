@@ -3,9 +3,9 @@ export const bar = {
   '@type': 'Product',
   name: 'Chocolate Bar',
   image: [
-    'https://chocshop.netlify.com/img/1400px/bar.jpg',
-    'https://chocshop.netlify.com/img/1000px/bar.jpg',
-    'https://chocshop.netlify.com/img/700px/bar.jpg'
+    'https://chocshop.netlify.app/img/1400px/bar.jpg',
+    'https://chocshop.netlify.app/img/1000px/bar.jpg',
+    'https://chocshop.netlify.app/img/700px/bar.jpg'
   ],
   description:
     "A tasty bar of chocolate. Velvety taste, 95% cocoa, and only the finest, selected Venezuela beans. The 'bomb', they've been called, though no one has died yet. ...Yet?",
@@ -34,7 +34,7 @@ export const bar = {
   },
   offers: {
     '@type': 'Offer',
-    url: 'https://chocshop.netlify.com/products/bar',
+    url: 'https://chocshop.netlify.app/products/bar',
     priceCurrency: 'USD',
     price: '7.99',
     priceValidUntil: '2020-11-20',
@@ -52,9 +52,9 @@ export const box = {
   '@type': 'Product',
   name: 'Gift Box',
   image: [
-    'https://chocshop.netlify.com/img/1400px/box.jpg',
-    'https://chocshop.netlify.com/img/1000px/box.jpg',
-    'https://chocshop.netlify.com/img/700px/box.jpg'
+    'https://chocshop.netlify.app/img/1400px/box.jpg',
+    'https://chocshop.netlify.app/img/1000px/box.jpg',
+    'https://chocshop.netlify.app/img/700px/box.jpg'
   ],
   description:
     "When you want to go from first to second base, it is time to bring out the big guns: Our fab box of dark desires, wrapped in a bow. Share it and thank us later. Just don't get hitched too fast!",
@@ -83,7 +83,7 @@ export const box = {
   },
   offers: {
     '@type': 'Offer',
-    url: 'https://chocshop.netlify.com/product-box',
+    url: 'https://chocshop.netlify.app/product-box',
     priceCurrency: 'USD',
     price: '37.99',
     priceValidUntil: '2020-11-20',
@@ -101,9 +101,9 @@ export const brownie = {
   '@type': 'Product',
   name: 'Brownie',
   image: [
-    'https://chocshop.netlify.com/img/1400px/brownie.jpg',
-    'https://chocshop.netlify.com/img/1000px/brownie.jpg',
-    'https://chocshop.netlify.com/img/700px/brownie.jpg'
+    'https://chocshop.netlify.app/img/1400px/brownie.jpg',
+    'https://chocshop.netlify.app/img/1000px/brownie.jpg',
+    'https://chocshop.netlify.app/img/700px/brownie.jpg'
   ],
   description:
     'Better than your mom ever baked, this is the ultimate cake for those book club readings. Dark chocolate from Uruguay to really make it punch through that sugary cake.',
@@ -132,7 +132,7 @@ export const brownie = {
   },
   offers: {
     '@type': 'Offer',
-    url: 'https://chocshop.netlify.com/product-brownie',
+    url: 'https://chocshop.netlify.app/product-brownie',
     priceCurrency: 'USD',
     price: '4.99',
     priceValidUntil: '2020-11-20',
@@ -150,9 +150,9 @@ export const cake = {
   '@type': 'Product',
   name: 'Chocolate Cake',
   image: [
-    'https://chocshop.netlify.com/img/1400px/cake.jpg',
-    'https://chocshop.netlify.com/img/1000px/cake.jpg',
-    'https://chocshop.netlify.com/img/700px/cake.jpg'
+    'https://chocshop.netlify.app/img/1400px/cake.jpg',
+    'https://chocshop.netlify.app/img/1000px/cake.jpg',
+    'https://chocshop.netlify.app/img/700px/cake.jpg'
   ],
   description:
     'Wonderful, moist and rich cake, drenched in a mix of fine melted milk chocolates. And none of those cheap supermarket varieties. Do you think we are trying to rob you?',
@@ -181,7 +181,7 @@ export const cake = {
   },
   offers: {
     '@type': 'Offer',
-    url: 'https://chocshop.netlify.com/products-cake',
+    url: 'https://chocshop.netlify.app/products-cake',
     priceCurrency: 'USD',
     price: '15.99',
     priceValidUntil: '2020-11-20',
@@ -199,9 +199,9 @@ export const icecream = {
   '@type': 'Product',
   name: 'Chocolate Ice Cream',
   image: [
-    'https://chocshop.netlify.com/img/1400px/icecream.jpg',
-    'https://chocshop.netlify.com/img/1000px/icecream.jpg',
-    'https://chocshop.netlify.com/img/700px/icecream.jpg'
+    'https://chocshop.netlify.app/img/1400px/icecream.jpg',
+    'https://chocshop.netlify.app/img/1000px/icecream.jpg',
+    'https://chocshop.netlify.app/img/700px/icecream.jpg'
   ],
   description:
     "'All by myself...' someone sang in a famous ballad. We hope you are by yourself because you are not going to want to share this bucket of the smoothest chocolate ice cream you ever tasted.",
@@ -230,7 +230,7 @@ export const icecream = {
   },
   offers: {
     '@type': 'Offer',
-    url: 'https://chocshop.netlify.com/product-icecream',
+    url: 'https://chocshop.netlify.app/product-icecream',
     priceCurrency: 'USD',
     price: '3.59',
     priceValidUntil: '2020-11-20',
@@ -248,9 +248,9 @@ export const pralines = {
   '@type': 'Product',
   name: 'Chocolate Pralines',
   image: [
-    'https://chocshop.netlify.com/img/1400px/pralines.jpg',
-    'https://chocshop.netlify.com/img/1000px/pralines.jpg',
-    'https://chocshop.netlify.com/img/700px/pralines.jpg'
+    'https://chocshop.netlify.app/img/1400px/pralines.jpg',
+    'https://chocshop.netlify.app/img/1000px/pralines.jpg',
+    'https://chocshop.netlify.app/img/700px/pralines.jpg'
   ],
   description:
     'Promotion time? Ran your 51st Ironman? Just happy you got out of bed? Whatever the occasion, trust us that this expensive-looking box will bring out all the feels (and taste buds!)',
@@ -279,7 +279,7 @@ export const pralines = {
   },
   offers: {
     '@type': 'Offer',
-    url: 'https://chocshop.netlify.com/product-pralines',
+    url: 'https://chocshop.netlify.app/product-pralines',
     priceCurrency: 'USD',
     price: '34.99',
     priceValidUntil: '2020-11-20',
