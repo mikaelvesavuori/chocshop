@@ -2,7 +2,7 @@
 
 A demo for structured data which is Google Search and Google Assistant-friendly. Uses [Svelte](https://svelte.dev) as the framework, and most of the design, tokens, and boilerplate UI code is generated through [Figmagic](https://github.com/mikaelvesavuori/figmagic).
 
-Inspired by [https://www.youtube.com/watch?v=GR1j2ADyGvA](https://www.youtube.com/watch?v=GR1j2ADyGvA).
+Inspired by [Enhance Your Search and Assistant Presence with Structured Data (Google I/O'19)](https://www.youtube.com/watch?v=GR1j2ADyGvA).
 
 Tech used:
 
