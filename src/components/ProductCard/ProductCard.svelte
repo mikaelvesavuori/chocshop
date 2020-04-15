@@ -11,7 +11,7 @@
   export let description: string = '';
   export let image: string = '';
   export let inStock: boolean = true;
-  export let price: float = 0.0;
+  export let price: number = 0.0;
 
   function handleClick() {
     alert("Added item to cart!\n\nThis is just fake, so don't worry about it :)");
