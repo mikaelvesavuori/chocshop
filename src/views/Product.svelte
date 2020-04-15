@@ -28,7 +28,7 @@
   // Get stock status
   let inStock: boolean = false;
   let stockUpdated: boolean = false;
-  let price: float = 0.0;
+  let price: number = 0.0;
 
   onMount(async () => {
     const BASE_URL = 'https://chocshop.mikaelvesavuori.workers.dev';

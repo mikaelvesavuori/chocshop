@@ -1,6 +1,7 @@
 /.figmagic
 /jest-coverage
 **/jest-coverage
+google*.html
 
 yarn.lock
 

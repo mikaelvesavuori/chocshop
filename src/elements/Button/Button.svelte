@@ -1,6 +1,6 @@
 <script lang="ts">
   export let className: string = '';
-  export let onClick: func = null;
+  export let onClick = null;
 </script>
 
 <style lang="scss">
