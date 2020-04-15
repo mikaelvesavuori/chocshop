@@ -4,6 +4,8 @@ A demo for structured data which is Google Search and Google Assistant-friendly.
 
 Inspired by [Enhance Your Search and Assistant Presence with Structured Data (Google I/O'19)](https://www.youtube.com/watch?v=GR1j2ADyGvA).
 
+The demo can be viewed on [https://chocshop.netlify.app](https://chocshop.netlify.app).
+
 Tech used:
 
 - [`Svelte 3`](https://svelte.dev)
