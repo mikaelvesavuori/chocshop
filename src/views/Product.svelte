@@ -84,7 +84,7 @@
         </Microcopy>
         <H1>{PRODUCT.name}</H1>
         <Paragraph>{PRODUCT.description}</Paragraph>
-        <Button className={inStock ? '' : 'Error'} onClick={handleClick}>
+        <Button className={inStock ? '' : 'Error'} onClick={inStock ? handleClick : null}>
           {inStock ? `Add to cart ($${price})` : 'Out of stock'}
         </Button>
       </div>

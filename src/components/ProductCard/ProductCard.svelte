@@ -53,7 +53,7 @@
     <ReadMore class="Read">Read more...</ReadMore>
   </Link>
 
-  <Button className={inStock ? '' : 'Error'} onClick={handleClick}>
+  <Button className={inStock ? '' : 'Error'} onClick={inStock ? handleClick : null}>
     {inStock ? `Add to cart ($${price})` : 'Out of stock'}
   </Button>
 </div>
