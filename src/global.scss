@@ -1,0 +1,121 @@
+:root {
+	--colors-green1: rgba(33, 150, 83, 1);
+	--colors-green2: rgba(39, 174, 96, 1);
+	--colors-green3: rgba(111, 207, 151, 1);
+	--colors-blue1: rgba(47, 128, 237, 1);
+	--colors-blue2: rgba(45, 156, 219, 1);
+	--colors-blue3: rgba(86, 204, 242, 1);
+	--colors-yellow: rgba(242, 201, 76, 1);
+	--colors-orange: rgba(242, 153, 74, 1);
+	--colors-red: rgba(235, 87, 87, 1);
+	--colors-gray1: rgba(79, 79, 79, 1);
+	--colors-gray2: rgba(130, 130, 130, 1);
+	--colors-gray3: rgba(189, 189, 189, 1);
+	--colors-gray4: rgba(224, 224, 224, 1);
+	--colors-gray5: rgba(242, 242, 242, 1);
+	--colors-white: rgba(255, 255, 255, 1);
+	--colors-black: rgba(51, 51, 51, 1);
+	--colors-neon: rgba(228, 255, 193, 1);
+
+	--spacing-huge: 6rem;
+	--spacing-large: 4rem;
+	--spacing-big: 3rem;
+	--spacing-medium: 2rem;
+	--spacing-small: 1rem;
+	--spacing-tiny: 0.5rem;
+
+	--media-mobilesm: 320px;
+	--media-mobilemd: 480px;
+	--media-mobilelg: 580px;
+	--media-mobilemax: 767px;
+	--media-tabletmin: 768px;
+	--media-tabletmax: 1024px;
+	--media-desktopmd: 1180px;
+	--media-desktoplg: 1440px;
+	--media-wide: 1920px;
+
+	--fontsizes-sub: 0.75rem;
+	--fontsizes-paragraph: 1rem;
+	--fontsizes-h1: 3rem;
+	--fontsizes-h2: 2.5rem;
+	--fontsizes-h3: 2rem;
+	--fontsizes-h4: 1.625rem;
+	--fontsizes-h5: 1.25rem;
+	--fontsizes-h6: 1.125rem;
+
+	--fontweight-light: 300;
+	--fontweight-regular: 400;
+	--fontweight-medium: 500;
+	--fontweight-bold: 700;
+
+	--radii-hard: 0;
+	--radii-rounded: 4px;
+	--radii-soft: 8px;
+	--radii-circle: 100px;
+
+	--shadows-soft: 0px 0px 5px rgba(196, 196, 196, 1);
+	--shadows-medium: 0px 0px 5px rgba(0, 0, 0, 1);
+	--shadows-deep: 3px 3px 3px rgba(196, 196, 196, 1);
+
+	--lineheights-xs: 1;
+	--lineheights-s: 1.35;
+	--lineheights-m: 1.45;
+	--lineheights-l: 1.65;
+
+	--letterspacings-regular: 0px;
+	--letterspacings-wide: 1.2px;
+	--letterspacings-tight: -1.08px;
+
+	--borderwidths-hairline: 1px;
+	--borderwidths-regular: 2px;
+	--borderwidths-fat: 4px;
+	--borderwidths-chunky: 8px;
+
+	--fontfamilies-light: "HelveticaNeue-Light";
+	--fontfamilies-regular: "HelveticaNeue";
+	--fontfamilies-regular-serif: "TimesNewRoman";
+	--fontfamilies-medium: "HelveticaNeue-Medium";
+	--fontfamilies-bold: "HelveticaNeue-Bold";
+}
+
+:global(body) {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+		sans-serif;
+	font-size: 16px;
+	padding: var(--spacing-huge) var(--spacing-small);
+	margin: 0;
+
+	@media all and (max-width: 767px) {
+		padding: var(--spacing-huge) 0;
+	}
+}
+
+:global(*) {
+	font-smooth: always;
+	-webkit-font-smoothing: always;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+:global(html) {
+	padding: 0;
+	margin: 0;
+}
+
+:global(img) {
+	max-width: 100%;
+}
+
+:global(a) {
+	color: var(--colors-blue1);
+}
+
+:global(.Wrapper) {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+:global(.Wrapper-Tight) {
+	max-width: 700px;
+	margin: 0 auto;
+}

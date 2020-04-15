@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "target": "ESNext",
+    "baseUrl": "./"
+  },
+  "include": ["src/**/*"]
+}
