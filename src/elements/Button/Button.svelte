@@ -1,5 +1,6 @@
-<script>
-  export let className = '';
+<script lang="ts">
+  export let className: string = '';
+  export let onClick: func = null;
 </script>
 
 <style lang="scss">
@@ -31,6 +32,6 @@
   }
 </style>
 
-<button class={className}>
+<button class={className} on:click={onClick}>
   <slot />
 </button>

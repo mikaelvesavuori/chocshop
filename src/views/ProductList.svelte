@@ -48,7 +48,8 @@
           description={product.description}
           id={product.id}
           image={product.image}
-          inStock={stockStatus[product.id].inStock} />
+          inStock={stockStatus[product.id].inStock}
+          price={stockStatus[product.id].price} />
       {/each}
     </div>
   </main>

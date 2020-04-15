@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { Link } from 'svelte-routing';
   import Image from '../../elements/Image/Image.svelte';
   import ProductName from '../../elements/ProductName/ProductName.svelte';
@@ -6,11 +6,16 @@
   import ReadMore from '../../elements/ReadMore/ReadMore.svelte';
   import Button from '../../elements/Button/Button.svelte';
 
-  export let id = '';
-  export let name = '';
-  export let description = '';
-  export let image = '';
-  export let inStock = true;
+  export let id: string = '';
+  export let name: string = '';
+  export let description: string = '';
+  export let image: string = '';
+  export let inStock: boolean = true;
+  export let price: float = 0.0;
+
+  function handleClick() {
+    alert("Added item to cart!\n\nThis is just fake, so don't worry about it :)");
+  }
 </script>
 
 <style lang="scss">
@@ -48,5 +53,7 @@
     <ReadMore class="Read">Read more...</ReadMore>
   </Link>
 
-  <Button className={inStock ? '' : 'Error'}>{inStock ? 'Add to cart' : 'Out of stock'}</Button>
+  <Button className={inStock ? '' : 'Error'} onClick={handleClick}>
+    {inStock ? `Add to cart ($${price})` : 'Out of stock'}
+  </Button>
 </div>

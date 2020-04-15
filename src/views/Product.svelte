@@ -28,6 +28,7 @@
   // Get stock status
   let inStock: boolean = false;
   let stockUpdated: boolean = false;
+  let price: float = 0.0;
 
   onMount(async () => {
     const BASE_URL = 'https://chocshop.mikaelvesavuori.workers.dev';
@@ -35,8 +36,13 @@
       async data => await data.json()
     );
     inStock = DATA.inStock;
+    price = DATA.price;
     stockUpdated = true;
   });
+
+  function handleClick() {
+    alert("Added item to cart!\n\nThis is just fake, so don't worry about it :)");
+  }
 </script>
 
 <style lang="scss">
@@ -78,8 +84,8 @@
         </Microcopy>
         <H1>{PRODUCT.name}</H1>
         <Paragraph>{PRODUCT.description}</Paragraph>
-        <Button className={inStock ? '' : 'Error'}>
-          {inStock ? 'Add to cart' : 'Out of stock'}
+        <Button className={inStock ? '' : 'Error'} onClick={handleClick}>
+          {inStock ? `Add to cart ($${price})` : 'Out of stock'}
         </Button>
       </div>
     </div>
